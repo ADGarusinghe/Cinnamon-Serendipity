@@ -34,6 +34,23 @@
   </nav>
 </section>
 
+<div class="image">
+
+<img src="Cinnamon img\8.png" alt="bg">
+
+<div class="explore">
+<p class="para1">What do you know about world's best cinnamon products? <br> <b>Come explore with us</b> </p>
+<button class="explorebtn">Explore</button>
+</div>
+
+
+</div>
+
+
+
+
+
+
 
 
 
