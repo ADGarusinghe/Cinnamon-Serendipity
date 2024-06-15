@@ -40,7 +40,7 @@
 .header {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     background-color: #000000;
 }
 .logo {
@@ -48,8 +48,19 @@
     font-size: 20px; /* Font size for the logo */
     font-weight: 700;
     color: #fab300; /* Font color for the logo */
-    text-decoration: none; /* Remove underline from the link */
+    
 }
+
+.logo a {
+  
+    color:#fab300; /* Font color for navbar links */
+    text-decoration: none; /* Remove underline from the links */
+}
+
+.logo a:hover{
+  color:#fab300a4; /* Change color on hover */
+}
+
 .gap {
     flex-grow: 1; /* This element will take up the remaining space */
 }
@@ -58,10 +69,10 @@
     font-size: 18px; /* Font size for navbar links */
     color:#fab300; /* Font color for navbar links */
     text-decoration: none; /* Remove underline from the links */
-    margin-left: 20px; /* Space between links */
+    margin-left: 15px; /* Space between links */
 }
 .navbar a:hover {
-    color:#fab30079; /* Change color on hover */
+    color:#fab300a4; /* Change color on hover */
 }
 
 .image{
@@ -69,7 +80,43 @@
   align-items: center;
   gap: 40px;
 }
+
+.explore{
+align-items: center;
+}
+
 .explorebtn{
   background-color: #000000;
-  color: #fab300;
+  border-radius: 5rem;
+  height: 30px;
+  width: 150px;
+
+}
+
+.explorebtn a{
+
+  font-family: "Poppins", sans-serif;
+    font-size: 18px; /* Font size for navbar links */
+    color:#fab300; /* Font color for navbar links */
+    text-decoration: none; /* Remove underline from the links */
+   
+}
+
+.explorebtn a:hover{
+  color:#fab300a4;
+}
+
+.para1{
+  font-family:"Poppins", sans-serif ;
+  font-size: larger;
+}
+
+.overbtn{
+  font-size: x-large;
+}
+
+
+.carouselslide{
+  width: 94%;
+  height: 60%;
 }
