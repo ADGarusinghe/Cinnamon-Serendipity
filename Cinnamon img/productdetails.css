@@ -1,0 +1,24 @@
+/* Basic styling for the header and footer */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin-top: 60px; /* Adjust depending on header height */
+    margin-bottom: 60px; /* Adjust depending on footer height */
+}
